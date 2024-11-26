@@ -28,7 +28,7 @@ Go to [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.h
 ```
 
 ### Add station logo and description
-Make sure to keep the description short, with 10-13 words, and the logo at a size of 300 pixels in a 1:1 ratio. In [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L43-L44) file, find `img` tag:
+Make sure to keep the description short, with 10-13 words, and the logo at a minimum size of 80 pixels in a 1:1 ratio. In [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L43-L44) file, find `img` tag:
 
 ```html
 <img slot="image" src="assets/RDM.webp" alt="Radio Digital Malayali Logo" />
