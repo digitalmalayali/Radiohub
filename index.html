@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="style.css">
     <script type="module"
         src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/shoelace-autoloader.js"></script>
+    <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
@@ -292,8 +293,12 @@
                 target="_blank">MIT</a>.</small>
         <p>© 2024 <a href="https://links.digitalmalayali.in/" target="_blank">Digital Malayali</a></p>
     </footer>
-
     <script src="script.js" async></script>
+    <script>
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("sw.js");
+        }
+      </script>
 </body>
 
 </html>

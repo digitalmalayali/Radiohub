@@ -8,7 +8,8 @@ A free, easy-to-use, simple and minimal web template built with [Shoelace](https
 </div>
 
 ## Features
-- 😊 No installation or fancy setup; just add station details and streaming URL!
+- 😊 Create your own radio directory - just add station details and streaming URL!
+- 🔽 PWA support - install as a web app on any device!
 - 📻 Stream stations without leaving the directory! 
 - ⚡ Uses [Shoelace](https://shoelace.style/), a powerful web component library!
 - 😍 Country flags are powered by [Flag Icons](https://github.com/lipis/flag-icons)!

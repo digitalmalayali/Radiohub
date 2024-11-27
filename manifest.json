@@ -1,0 +1,17 @@
+{
+    "short_name": "RH",
+    "name": "Radiohub",
+    "description": "A free, easy-to-use, simple and minimal web template built with Shoelace, designed for creating a radio directory.",
+    "icons": [
+      {
+        "src": "/assets/favicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#242428",
+    "background_color": "#242428"
+  }
+  
