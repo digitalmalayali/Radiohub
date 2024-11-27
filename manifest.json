@@ -9,7 +9,7 @@
         "sizes": "any"
       }
     ],
-    "start_url": "Radiohub",
+    "start_url": "https://digitalmalayali.github.io/Radiohub/",
     "display": "standalone",
     "theme_color": "#242428",
     "background_color": "#242428"
