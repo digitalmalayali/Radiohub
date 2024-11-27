@@ -4,12 +4,12 @@
     "description": "A free, easy-to-use, simple and minimal web template built with Shoelace, designed for creating a radio directory.",
     "icons": [
       {
-        "src": "https://digitalmalayali.github.io/Radiohub/assets/favicon.png",
-        "sizes": "512x512",
-        "type": "image/png"
+        "src": "/assets/favicon.svg",
+        "type": "image/svg+xml",
+        "sizes": "any"
       }
     ],
-    "start_url": "/radiohub",
+    "start_url": "/",
     "display": "standalone",
     "theme_color": "#242428",
     "background_color": "#242428"
