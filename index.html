@@ -66,6 +66,37 @@
             </div>
         </sl-card>
 
+        <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/tvm.jpg" alt="Akashvani TVM Logo" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>Akashvani TVM</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website"
+                            href="https://prasarbharati.gov.in/airtvm/" target="_blank"></sl-icon-button>
+                    </div>
+                    AIR TVM, started serving the people of Kerala and now stand as the leading electronic media in the state.
+                    <div class="badges">
+                        <sl-badge variant="success">India<span class="fi fi-in fis"></span></sl-badge>
+                        <sl-badge variant="success">Malayalam</sl-badge>
+                        <sl-badge variant="success">Public</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://air.pc.cdn.bitgravity.com/air/live/pbaudio230/playlist.m3u8"
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
 
         <sl-card>
             <div class="card-container">
@@ -293,6 +324,7 @@
                 target="_blank">MIT</a>.</small>
         <p>© 2024 <a href="https://links.digitalmalayali.in/" target="_blank">Digital Malayali</a></p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script src="script.js" async></script>
     <script>
         if ("serviceWorker" in navigator) {
