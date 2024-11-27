@@ -17,7 +17,7 @@ A free, easy-to-use, simple and minimal web template built with [Shoelace](https
 The first step is to click the **Use this template** button above the file list to create a new repository.
 
 ### Add station name, website and description
-Make sure to keep the description short, with 10-13 words. Go to [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L47-L51) file and find `header`:
+Make sure to keep the description short, with 10-13 words. Go to [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L47-L52) file and find `header`:
 
 ```html
 <div class="header">
@@ -29,7 +29,7 @@ A 24/7 Indian lo-fi music web radio initiative by Digital Malayali.
 ```
 
 ### Add station logo
-Add a logo at a minimum size of 80 pixels in a 1:1 ratio. In [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L39-L45) file, find `img` tag:
+Add a logo at a minimum size of 80 pixels in a 1:1 ratio to the [assets](assets) folder. In [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L39-L45) file, find `img` tag:
 
 ```html
 <div class="logo-container">
