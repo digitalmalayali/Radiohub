@@ -16,27 +16,33 @@ A free, easy-to-use, simple and minimal web template built with [Shoelace](https
 ## Usage
 The first step is to click the **Use this template** button above the file list to create a new repository.
 
-### Add station name and website
-Go to [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L38-L42) file and find `header`:
+### Add station name, website and description
+Make sure to keep the description short, with 10-13 words. Go to [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L47-L51) file and find `header`:
 
 ```html
-<div slot="header">
+<div class="header">
     <strong>Radio Digital Malayali</strong>
-    <sl-icon-button name="arrow-up-right" label="Visit Website" href="https://radio.digitalmalayali.in/" target="_blank">   
-    </sl-icon-button>
+        <sl-icon-button name="arrow-up-right" label="Visit Website" href="https://radio.digitalmalayali.in/" target="_blank">
+        </sl-icon-button>
 </div>
-```
-
-### Add station logo and description
-Make sure to keep the description short, with 10-13 words, and the logo at a minimum size of 80 pixels in a 1:1 ratio. In [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L43-L44) file, find `img` tag:
-
-```html
-<img slot="image" src="assets/RDM.webp" alt="Radio Digital Malayali Logo" />
 A 24/7 Indian lo-fi music web radio initiative by Digital Malayali.
 ```
 
+### Add station logo
+Add a logo at a minimum size of 80 pixels in a 1:1 ratio. In [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L39-L45) file, find `img` tag:
+
+```html
+<div class="logo-container">
+    <img class="radio-logo" src="assets/RDM.webp" alt="Radio Digital Malayali Logo" />
+    <sl-button class="play-radio" variant="primary">
+        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+        Play
+    </sl-button>
+</div>
+```
+
 ### Add country, language and category
-Find `badges` in [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L45-L49) file. Use the two-letter country code ([ISO 3166-1-alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) to display flags:
+Find `badges` in [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L53-L57) file. Use the two-letter country code ([ISO 3166-1-alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) to display flags:
 
 ```html
 <div class="badges">
@@ -47,7 +53,7 @@ Find `badges` in [index.html](https://github.com/digitalmalayali/radiohub/blob/m
 ```
 
 ### Add streaming URL
-Find `audio` tag in [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L55-L56) file:
+Find `audio` tag in [index.html](https://github.com/digitalmalayali/radiohub/blob/main/index.html#L59-L60) file:
 
 ```html
 <audio class="audio" src="https://radio.digitalmalayali.in/listen/stream/radio.mp3" preload="none"></audio>
