@@ -9,7 +9,7 @@
         "type": "image/png"
       }
     ],
-    "start_url": "/",
+    "start_url": "/radiohub",
     "display": "standalone",
     "theme_color": "#242428",
     "background_color": "#242428"
